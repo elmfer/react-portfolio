@@ -20,19 +20,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        index: true,
+        path: '/react-portfolio',
         element: <HomePage />,
       },
       {
-        path: 'about',
+        path: '/react-portfolio/about',
         element: <AboutPage />,
       },
       {
-        path: 'projects',
+        path: '/react-portfolio/projects',
         element: <ProjectsPage />,
       },
       {
-        path: 'contact',
+        path: '/react-portfolio/contact',
         element: <ContactPage />,
       },
     ],
