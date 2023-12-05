@@ -15,24 +15,24 @@ import ContactPage from './pages/ContactPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-portfolio',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/react-portfolio',
+        path: '/',
         element: <HomePage />,
       },
       {
-        path: '/react-portfolio/about',
+        path: 'about',
         element: <AboutPage />,
       },
       {
-        path: '/react-portfolio/projects',
+        path: 'projects',
         element: <ProjectsPage />,
       },
       {
-        path: '/react-portfolio/contact',
+        path: 'contact',
         element: <ContactPage />,
       },
     ],
