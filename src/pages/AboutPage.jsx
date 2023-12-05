@@ -3,7 +3,7 @@ import AboutMe from "../components/AboutMe";
 const pictureStyle = {
   height: '4in',
   backgroundColor: 'rgba(0, 0, 0, 0.3)',
-  backgroundImage: 'url(/assets/images/fern.jpg)',
+  backgroundImage: 'url(/react-portfolio/assets/images/fern.jpg)',
   backgroundPosition: 'center',
   backgroundSize: 'contain',
   backgroundRepeat: 'no-repeat',
