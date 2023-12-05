@@ -1,0 +1,197 @@
+:root {
+  --background-color: rgb(75, 75, 75);
+  --header-image: url("../images/sunrise.jpg");
+  --overlay-color: rgba(0, 0, 0, 0.3);
+  --light-overlay-color: rgba(0, 0, 0, 0.1);
+  --footer-image: url("../images/trees.jpg");
+  --header-footer-padding: 20px;
+  --body-image: url("../images/mountains.jpg");
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: var(--body-image);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  gap: 2rem;
+  background-image: var(--header-image);
+  background-size: cover;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  align-items: end;
+  z-index: 5;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+  height: 1.75in;
+  align-self: self-start;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.3);
+
+  backdrop-filter: saturate(50%) blur(15px);
+  -webkit-backdrop-filter: saturate(50%) blur(15px);
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+}
+
+img {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  padding: 2rem;
+
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+
+  border-left: solid 1px rgba(140, 140, 140, 0.3);
+  border-right: solid 1px rgba(140, 140, 140, 0.3);
+
+  backdrop-filter: saturate(50%) blur(15px);
+  -webkit-backdrop-filter: saturate(50%) blur(15px);
+}
+
+footer {
+  background-image: var(--footer-image);
+  background-size: cover;
+  padding: 2rem;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+footer h4 {
+  margin: 0;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-item {
+  border: dashed 2px white;
+  padding: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-item-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+.project-item h3 {
+  margin: 0;
+}
+
+.project-item img {
+  height: 1.5in;
+}
+
+.project-item p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  header {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  footer {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  header img {
+    height: 1in;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.contact-item {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  overflow: hidden;
+}
