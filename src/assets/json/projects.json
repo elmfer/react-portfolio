@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Parkour Recorder",
+    "url": "https://prmod.elmfer.com/",
+    "description": "Parkour Recorder is a client-side mod for modern versions of Minecraft Forge that gives you the tools to record, playback, and aid in parkour.",
+    "thumbnail": "/assets/images/parkour-recorder-logo.png",
+    "sourceUrl": "https://github.com/elmfrain/parkour_recorder"
+  },
+  {
+    "name": "Quote of the Day",
+    "url": "https://github.com/elmfer/quote-of-the-day",
+    "description": "A quote of the day web application that serves you a daily does of quotes for wisdom, inspiration, or entertainment. Additionally, you are able to read information about the author of the quote.",
+    "thumbnail": "/assets/images/quote-of-the-day-logo.png",
+    "sourceUrl": "https://github.com/elmfer/quote-of-the-day"
+  },
+  {
+    "name": "History of Texas Timeline",
+    "url": "https://github.com/aalemanyz67/Project2-TexasTimeline",
+    "description": "This application allows the user to see an interactive timeline in which historical events of Texas will be displayed. The user will be able to click on an event and receive descriptions, videos, maps, and images of what occurred on that date.",
+    "thumbnail": "/assets/images/texas-timeline-logo.png",
+    "sourceUrl": "https://github.com/aalemanyz67/Project2-TexasTimeline"
+  },
+  {
+    "name": "Teensy Stopwatch",
+    "url": "https://elmfer.com/teensy_stopwatch",
+    "description": "The Stopwatch project harnesses the computing power of the Teensy 4.0 board to deliver precise timing functionality, displayed crisply on an ILI9341 screen. It offers accurate timekeeping and an intuitive interface, making it an ideal companion for various time measurement tasks.",
+    "thumbnail": "/assets/images/teensy-stopwatch-logo.png"
+  }
+]
