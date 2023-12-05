@@ -6,13 +6,13 @@ function Header() {
         <a href="/"><h1>Fernando Valle</h1></a>
         <ul>
           <li>
-            <a href="/about"><i className="fa fa-circle-info"/> About Me</a>
+            <a href="/react-portfolio/about"><i className="fa fa-circle-info"/> About Me</a>
           </li>
           <li>
-            <a href="/projects"><i className="fa fa-briefcase"/> Projects</a>
+            <a href="/react-portfolio/projects"><i className="fa fa-briefcase"/> Projects</a>
           </li>
           <li>
-            <a href="/contact"><i className="fa fa-address-card"/> Contact Me</a>
+            <a href="/react-portfolio/contact"><i className="fa fa-address-card"/> Contact Me</a>
           </li>
           <li>
             <a href="#resume"><i className="fa fa-file"/> Resume</a>
