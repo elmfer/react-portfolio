@@ -1,9 +1,9 @@
 function Header() {
   return (
     <header>
-      <a href="/"><img src="./assets/images/fern.jpg" alt="Fern" /></a>
+      <a href="/react-portfolio"><img src="react-portfolio/assets/images/fern.jpg" alt="Fern" /></a>
       <nav>
-        <a href="/"><h1>Fernando Valle</h1></a>
+        <a href="/react-portfolio"><h1>Fernando Valle</h1></a>
         <ul>
           <li>
             <a href="/react-portfolio/about"><i className="fa fa-circle-info"/> About Me</a>
